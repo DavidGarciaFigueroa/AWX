@@ -1,6 +1,6 @@
 ---
 - hosts: all
-  remote_user: root
+  remote_user: sudo
   tasks:
     - name: hacer un ping
       ping:
